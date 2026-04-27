@@ -6,7 +6,7 @@
 
 - ✅ **完全可配置**：关键词、背景色、文字色、加粗、是否隐藏标记均可自定义  
 - ✅ **保留语法高亮**：不破坏原有 highlight.js 高亮样式  
-- ✅ **单文件注入**：只有一个 `custom.js`，即插即用  
+- ✅ **单文件注入**：只有一个 `markedit-code-annotator.js`，即插即用  
 - ✅ **自动监听**：预览区内容变化实时生效，无需刷新  
 - ✅ **支持多套标记**：可同时使用通用标记（`IMPORTANT`/`WARNING`/`ERROR`）和污点跟踪标记（`SOURCE`/`PROP`/`SINK`）
 
@@ -15,7 +15,7 @@
 在终端执行以下命令：
 
 ```bash
-curl -o ~/Library/Containers/app.cyan.markedit/Data/Documents/markedit-code-annotator.js https://raw.githubusercontent.com/resetself/markedit-code-annotator/main/index.js
+curl -o ~/Library/Containers/app.cyan.markedit/Data/Documents/scripts/markedit-code-annotator.js https://raw.githubusercontent.com/resetself/markedit-code-annotator/main/index.js
 ```
 重启 MarkEdit 即可。
 

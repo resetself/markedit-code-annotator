@@ -121,7 +121,7 @@ function markSpecialComments() {
           break;
         }
       }
-      wrappedHtml += `<span class="code-line ${matchedClass}">${line}</span>\n`;
+      wrappedHtml += `<span class="code-line ${matchedClass}">${line}</span>`;
     }
     block.innerHTML = wrappedHtml.trimEnd();
   });
